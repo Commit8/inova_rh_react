@@ -8,7 +8,7 @@ function Navbar() {
         
         <Link 
           to="/home"
-          className="flex items-center space-x-2 text-3xl font-extrabold text-[#01B18B]  tracking-wide"
+          className="flex items-center space-x-2 text-3xl font-extrabold font-inter text-[#01B18B]  tracking-wide"
         >
           <img
             src="https://i.postimg.cc/xTwGDWWk/inova-RH-azivs.png"
@@ -18,9 +18,9 @@ function Navbar() {
           Inova<span className="text-slate-300">RH</span>
         </Link>
 
-        <div className="flex gap-8 items-center">
+        <div className="flex gap-8 items-center font-inter">
            <Link to="/home" className="hover:text-[#01B18B] transition-colors">Home</Link>
-           <Link to="/sobre" className="hover:text-[#01B18B] transition-colors">Quem Somos</Link>
+           <Link to="/sobre" className="hover:text-[#01B18B] transition-colors">Quem somos</Link>
            <Link to="/produto" className="hover:text-[#01B18B] transition-colors">Soluções</Link>
         </div>
       </div>

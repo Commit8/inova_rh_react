@@ -6,7 +6,7 @@ function Sobre() {
       {" "}
       <div className="container"></div>
       <div className="bg-[linear-gradient(135deg,#0B4F50_0%,#137D7D_40%,#17C8C0_80%,#B2FFF6_100%)] text-black">
-        <h2 className="text-5xl font-bold text-center pt-10">Quem somos</h2>
+        <h2 className="text-5xl font-bold font-inter text-center text-[#d5d9e4] pt-10">Quem somos</h2>
         <div className="flex justify-center">
           <div className="container grid grid-cols-1 lg:grid-cols-2">
             <div className="flex justify-center">
@@ -33,7 +33,7 @@ function Sobre() {
       <div className="bg-[#0E294C] flex justify-center text-center pt-2">
         <div className="container flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#5ad4ca] text-xl font-semibold">
           <div className="flex flex-col gap-4 items-center justify-center">
-            <h2 className="text-3xl font-bold text-white py-4 pt-6">
+            <h2 className="text-3xl font-inter font-bold text-white py-4 pt-6">
               No que acreditamos
             </h2>
             <p className="pb-10 text-xl">
@@ -59,9 +59,9 @@ function Sobre() {
         </div>
       </div>
       <div className="flex flex-1 justify-center items-center">
-        <div className="text-3xl font-bold py-4 text-center">
+        <div className="text-3xl font-inter font-bold py-4 text-center">
           <h1>
-            <span className="text-[#00A597]">Coletivo</span> Commit8
+            <span className=" text-[#00A597]">Coletivo</span> Commit8
           </h1>
           <p className="text-[#00A597]"> código, colaboração e propósito.</p>
           <div
