@@ -22,7 +22,7 @@ function Home() {
             <img
               src="https://i.imgur.com/nKl4Nsh.png"
               alt="Imagem Página Home"
-              className="w-7/3"
+              className="w-3/4"
             />
             <span className="font-inter text-[#031D40] text-7xl mt-4 pb-42 font-bold">inovaRH</span>
           </div>
