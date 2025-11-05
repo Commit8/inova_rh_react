@@ -20,13 +20,13 @@ function CardDevs(cardDev: CardPDevsProps) {
       component = (
         <div className="bg-[#031D40] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center gap-2">
           <div>
-            <img src={cardDev.foto} className="rounded-full pb-3" alt="" />
+            <img src={cardDev.foto} className="rounded-full pb-3 h-full" alt="" />
           </div>
           <div>
             {" "}
             <h2 className="text-2xl font-inter font-bold  ">{cardDev.nome}</h2>
             <h3 className="text-3xl font-inter font-bold">Dev.</h3>
-            <p>{cardDev.descricao}</p>
+            <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
                 size={35}
@@ -43,13 +43,13 @@ function CardDevs(cardDev: CardPDevsProps) {
       component = (
         <div className="bg-[#145764] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center gap-2">
           <div>
-            <img src={cardDev.foto} className="rounded-full pb-3" alt="" />
+            <img src={cardDev.foto} className="rounded-full pb-3 h-full" alt="" />
           </div>
           <div>
             {" "}
             <h2 className="text-2xl font-inter font-bold ">{cardDev.nome}</h2>
             <h3 className="text-3xl font-inter font-bold">Dev.</h3>
-            <p>{cardDev.descricao}</p>
+            <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
                 size={35}
@@ -72,7 +72,7 @@ function CardDevs(cardDev: CardPDevsProps) {
             {" "}
             <h2 className="text-2xl font-inter font-bold  ">{cardDev.nome}</h2>
             <h3 className="text-3xl font-inter font-bold">Dev.</h3>
-            <p>{cardDev.descricao}</p>
+            <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
                 size={35}
@@ -99,7 +99,7 @@ function CardDevs(cardDev: CardPDevsProps) {
             {" "}
             <h2 className="text-2xl font-inter font-bold  ">{cardDev.nome}</h2>
             <h3 className="text-3xl font-inter font-bold">Dev.</h3>
-            <p>{cardDev.descricao}</p>
+            <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
                 size={35}

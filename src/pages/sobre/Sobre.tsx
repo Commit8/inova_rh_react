@@ -32,7 +32,7 @@ function Sobre() {
         </div>
       </div>
       <div className="bg-[#0E294C] flex justify-center  pt-2">
-        <div className="container mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#70ebe0] text-center pb-10  lg:text-start">
+        <div className="container px-6 mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#70ebe0] text-center pb-10  lg:text-start">
           <div className="flex flex-col gap-4 justify-center ">
             <h2 className="text-3xl font-inter font-bold text-white py-4 pt-6">
               No que acreditamos
