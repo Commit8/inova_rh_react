@@ -6,7 +6,7 @@ function Sobre() {
       {" "}
       <div className="bg-[linear-gradient(135deg,#0E294C_0%,#1A4E91_40%,#17C8C0_75%,#C084FC_100%)] text-white">
         <div className="flex justify-center container mx-auto px-3 text-center lg:text-start">
-          <div className=" grid grid-cols-1 lg:grid-cols-2">
+          <div className=" grid grid-cols-1 lg:grid-cols-2 px-6">
             <div className="flex justify-center">
               <img
                 src="https://i.postimg.cc/0QXJHP2y/logo-maria-gasolina-removebg-preview.png"
@@ -14,11 +14,11 @@ function Sobre() {
                 className="w-full"
               />
             </div>
-            <div className="flex flex-col gap-4 justify-center">
+            <div className="flex flex-col justify-center">
               <h2 className="text-3xl font-inter font-bold text-white py-4 pt-6 ">
                 Quem somos
               </h2>
-              <p className="text-2xl  pb-8  ">
+              <p className=" gap-1 pb-8  ">
                 <span className="text-[#031D40] font-bold">Commit8 </span> é um
                 coletivo formado por oito desenvolvedores em início de carreira,
                 unidos por um propósito comum: aprender, crescer e construir
@@ -32,12 +32,12 @@ function Sobre() {
         </div>
       </div>
       <div className="bg-[#0E294C] flex justify-center  pt-2">
-        <div className="container mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#70ebe0] text-2xl text-center pb-10 lg:text-start">
+        <div className="container mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#70ebe0] text-center pb-10  lg:text-start">
           <div className="flex flex-col gap-4 justify-center ">
             <h2 className="text-3xl font-inter font-bold text-white py-4 pt-6">
               No que acreditamos
             </h2>
-            <p className="text-xl ">
+            <p>
               Valorizamos o trabalho em equipe, o aprendizado contínuo e a
               diversidade de experiências que cada integrante traz. Juntos,
               exploramos diferentes áreas da tecnologia do front-end ao
@@ -78,56 +78,56 @@ function Sobre() {
               bg="azul"
               foto="https://i.postimg.cc/B68Yd9VQ/IMG-3370-1.png"
               nome="Pedro Emanuel"
-              descricao="Colaboradores.service.ts"
+              descricao="Gerenciar o cadastro e as informações dos colaboradores, conectando o sistema ao banco de dados."
               link="https://github.com/pe3dru"
             />
             <CardDevs
               bg="azuver"
               foto="https://i.postimg.cc/mDpBQnpf/AP1Gcz-P13BKj8DKMb-Vd7Wv5-MVlqh-Pyh-b-MZ19v4e-Snwsc6Be-Kligbl-IA7ar-EAw694-h925-s-no-gm.png"
               nome="Dandara Oliveira"
-              descricao="Colaboradores.entity.ts | DER"
+              descricao="Definir a estruturar dos dados dos colaboradores no sistema."
               link="https://github.com/dan-olivnas"
             />
             <CardDevs
               bg="verazu"
               foto="https://i.postimg.cc/JnHM5qfw/IMG-20201009-235956-286.png"
               nome="Laish Rodrigues"
-              descricao="Documentação do projeto"
+              descricao="Reúnir informações e instruções sobre o funcionamento e desenvolvimento do sistema."
               link="https://github.com/L4ish"
             />
             <CardDevs
               bg="verde"
               foto="https://i.postimg.cc/0QS1wNSv/IMG-20250315-013235-785.png"
               nome="Gabriella Parra"
-              descricao="main.ts"
+              descricao="Iniciar a aplicação e conecta todas as partes do sistema para que ele funcione corretamente."
               link="https://github.com/gabiparra05"
             />
             <CardDevs
               bg="azul"
               foto="https://i.postimg.cc/QxmCt6sk/foto-apresentacao.png"
               nome="Gabriel Messias"
-              descricao="app.module.ts"
+              descricao="Centralizar e organizar os módulos principais que compõem o sistema."
               link="https://github.com/gabrielmessias-dev"
             />
             <CardDevs
               bg="azuver"
               foto="https://i.postimg.cc/NGpv2Z9p/1746464117666-1.png"
               nome="Akanni Silva"
-              descricao="Colaboradores.controller.ts"
+              descricao="Controlar as requisições relacionadas aos colaboradores, conectando o front-end aos serviços do sistema."
               link="https://github.com/Akanni-Silva"
             />
             <CardDevs
               bg="verazu"
               foto="https://i.postimg.cc/QxTSZTrR/perfil-Linkedin.png"
               nome="Janielle Oliveira"
-              descricao="Criação da estrutura do projeto"
+              descricao="Definir a base inicial e a organização das pastas e arquivos do sistema."
               link="https://github.com/JanielleOliveira"
             />
             <CardDevs
               bg="azuver"
               foto="https://i.postimg.cc/2jqg33DH/20230407-153224.png"
               nome="Vitor Hugo"
-              descricao="Colaboradore.module.ts"
+              descricao="Agrupar os componentes e serviços relacionados aos colaboradores em um único módulo."
               link="https://github.com/DisturbedMoss"
             />
           </div>
