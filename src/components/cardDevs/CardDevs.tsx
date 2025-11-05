@@ -18,14 +18,14 @@ function CardDevs(cardDev: CardPDevsProps) {
   switch (cor) {
     case "azul":
       component = (
-        <div className="bg-[#031D40] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center">
+        <div className="bg-[#031D40] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center gap-2">
           <div>
             <img src={cardDev.foto} className="rounded-full pb-3" alt="" />
           </div>
           <div>
             {" "}
-            <h2>{cardDev.nome}</h2>
-            <h3 className="text-[#01B18B]">Desenvolvedor</h3>
+            <h2 className="text-3xl font-inter font-bold">{cardDev.nome}</h2>
+            <h3 className="text-3xl font-inter font-bold" >Dev.</h3>
             <p>{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
@@ -41,14 +41,14 @@ function CardDevs(cardDev: CardPDevsProps) {
 
     case "azuver":
       component = (
-        <div className="bg-[#145764] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center">
+        <div className="bg-[#145764] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center gap-2">
           <div>
             <img src={cardDev.foto} className="rounded-full pb-3" alt="" />
           </div>
           <div>
             {" "}
-            <h2>{cardDev.nome}</h2>
-            <h3 className="text-[#01B18B]">Desenvolvedor</h3>
+            <h2 className="text-3xl font-inter font-bold">{cardDev.nome}</h2>
+            <h3 className="text-3xl font-inter font-bold" >Dev.</h3>
             <p>{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
@@ -64,14 +64,14 @@ function CardDevs(cardDev: CardPDevsProps) {
 
     case "verazu":
       component = (
-        <div className="bg-[#00A597] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center">
+        <div className="bg-[#00A597] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center gap-2">
           <div>
             <img src={cardDev.foto} className="rounded-full pb-3" alt="" />
           </div>
           <div>
             {" "}
-            <h2>{cardDev.nome}</h2>
-            <h3 className="text-[#031D40]">Desenvolvedor</h3>
+            <h2 className="text-3xl font-inter font-bold">{cardDev.nome}</h2>
+            <h3 className="text-3xl font-inter font-bold">Dev.</h3>
             <p>{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
@@ -87,14 +87,14 @@ function CardDevs(cardDev: CardPDevsProps) {
 
     case "verde":
       component = (
-        <div className="bg-[#01B18B] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center">
+        <div className="bg-[#01B18B] flex lg:flex-col rounded-3xl justify-center items-center mx-4 text-white my-6 p-6 text-center gap-2">
           <div>
-            <img src={cardDev.foto} className="rounded-full pb-3" alt="" />
+            <img src={cardDev.foto} className="rounded-full pb-3" alt="Foto do Dev" />
           </div>
           <div>
             {" "}
-            <h2>{cardDev.nome}</h2>
-            <h3 className="text-[#031D40]">Desenvolvedor</h3>
+            <h2 className="text-3xl font-inter font-bold" >{cardDev.nome}</h2>
+            <h3 className="text-3xl font-inter font-bold">Dev.</h3>
             <p>{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
