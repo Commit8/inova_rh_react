@@ -30,7 +30,7 @@ function Footer() {
             <GithubLogoIcon
               size={40}
               weight="bold"
-              className="text-white hover:text-withe/70 transition-colors"
+              className="text-white hover:text-white/70 transition-colors"
             />
           </a>
 
