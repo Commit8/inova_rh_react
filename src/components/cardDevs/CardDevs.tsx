@@ -25,7 +25,7 @@ function CardDevs(cardDev: CardPDevsProps) {
           <div>
             {" "}
             <h2 className="text-2xl font-inter font-bold  ">{cardDev.nome}</h2>
-            <h3 className="text-3xl font-inter font-bold">Dev.</h3>
+            <h3 className="text-xl font-inter font-bold">Dev.</h3>
             <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
@@ -48,7 +48,7 @@ function CardDevs(cardDev: CardPDevsProps) {
           <div>
             {" "}
             <h2 className="text-2xl font-inter font-bold ">{cardDev.nome}</h2>
-            <h3 className="text-3xl font-inter font-bold">Dev.</h3>
+            <h3 className="text-xl font-inter font-bold">Dev.</h3>
             <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
@@ -71,7 +71,7 @@ function CardDevs(cardDev: CardPDevsProps) {
           <div>
             {" "}
             <h2 className="text-2xl font-inter font-bold  ">{cardDev.nome}</h2>
-            <h3 className="text-3xl font-inter font-bold">Dev.</h3>
+            <h3 className="text-xl font-inter font-bold">Dev.</h3>
             <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
@@ -98,13 +98,13 @@ function CardDevs(cardDev: CardPDevsProps) {
           <div>
             {" "}
             <h2 className="text-2xl font-inter font-bold  ">{cardDev.nome}</h2>
-            <h3 className="text-3xl font-inter font-bold">Dev.</h3>
+            <h3 className="text-xl font-inter font-bold">Dev.</h3>
             <p className="w-55">{cardDev.descricao}</p>
             <a href={cardDev.link} target="_blank">
               <GithubLogoIcon
                 size={35}
                 weight="bold"
-                className="mx-auto mt-6 hover:size-15 duration-500"
+                className="mx-auto mt-6 hover:size-15 duration-500 "
               />
             </a>
           </div>

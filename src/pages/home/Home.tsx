@@ -8,7 +8,7 @@ function Home() {
           <div className="flex flex-col gap-4 items-center justify-center p-15">
             <h2 className="text-3xl text-center lg:text-left lg:text-6xl font-bold text-shadow-lg/17">Simplifique a gestão de pessoas na sua <span className="text-[#f3f5f6]">empresa</span> </h2>
 
-            <p className="text-center mt-8">
+            <p className="text-center lg:text-left mt-8">
               O InovaRH é uma plataforma prática e intuitiva para gerenciar colaboradores e otimizar processos de Recursos Humanos.
             </p>
 
