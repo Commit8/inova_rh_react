@@ -76,7 +76,7 @@ function Sobre() {
           >
             <CardDevs
               bg="azul"
-              foto="https://i.postimg.cc/pXdZ7thj/image.png"
+              foto="https://i.postimg.cc/B68Yd9VQ/IMG-3370-1.png"
               nome="Pedro Emanuel"
               descricao="Colaboradores.service.ts"
               link="https://github.com/pe3dru"
