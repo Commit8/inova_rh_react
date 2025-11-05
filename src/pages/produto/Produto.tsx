@@ -13,22 +13,22 @@ function Produto() {
               simplificar a forma como as empresas gerenciam seus talentos.
             </p>
           </div>
-          <div className="flex justify-center ">
+          <div className="flex items-center justify-center">
             <img
               src="https://i.postimg.cc/ZY1Swdmc/Company-amico-1.png"
               alt="Imagem Página Soluções"
-              className="w-2/3 py-5"
+              className="aspect-auto"
             />
           </div>
         </div>
       </div>
       <div className="bg-[#00A597] flex justify-center">
         <div className="container grid grid-cols-2 text-black">
-          <div className="flex justify-center ">
+          <div className="flex items-center justify-center">
             <img
               src="https://i.postimg.cc/zftCN5XD/Selecting-team-amico-1.png"
               alt="Imagem 2 Página Soluções"
-              className="w-2/3 my-7"
+              className="aspect-auto"
             />
           </div>
           <div className="flex flex-col gap-4 justify-center py-7 pb-12">
