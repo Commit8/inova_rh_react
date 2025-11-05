@@ -37,7 +37,7 @@ function Sobre() {
             <h2 className="text-3xl font-inter font-bold text-white py-4 pt-6">
               No que acreditamos
             </h2>
-            <p className="text-2xl ">
+            <p className="text-xl ">
               Valorizamos o trabalho em equipe, o aprendizado contínuo e a
               diversidade de experiências que cada integrante traz. Juntos,
               exploramos diferentes áreas da tecnologia do front-end ao
@@ -76,7 +76,7 @@ function Sobre() {
           >
             <CardDevs
               bg="azul"
-              foto="https://i.postimg.cc/B68Yd9VQ/IMG-3370-1.png"
+              foto="https://i.postimg.cc/pXdZ7thj/image.png"
               nome="Pedro Emanuel"
               descricao="Colaboradores.service.ts"
               link="https://github.com/pe3dru"
