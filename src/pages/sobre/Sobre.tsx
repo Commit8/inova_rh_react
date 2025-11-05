@@ -5,11 +5,11 @@ function Sobre() {
     <>
       {" "}
       <div className="container"></div>
-      <div className="bg-[#00A597] ">
+      <div className="bg-[linear-gradient(135deg,#0B4F50_0%,#137D7D_40%,#17C8C0_80%,#B2FFF6_100%)] text-black">
         <h2 className="text-5xl font-bold text-center pt-10">Quem somos</h2>
         <div className="flex justify-center">
           <div className="container grid grid-cols-1 lg:grid-cols-2">
-            <div className="flex justify-center py-6 ">
+            <div className="flex justify-center">
               <img
                 src="https://i.postimg.cc/0QXJHP2y/logo-maria-gasolina-removebg-preview.png"
                 alt="Logo da Commit8"
@@ -17,7 +17,7 @@ function Sobre() {
               />
             </div>
             <div className="flex flex-col gap-4 items-center justify-center">
-              <p className="text-3xl font-semibold px-5 py-3 text-center">
+              <p className="text-3xl font-semibold pb-8 text-center">
                 <span className="text-[#0530a7]">Commit8 </span> é um coletivo
                 formado por oito desenvolvedores em início de carreira, unidos
                 por um propósito comum: aprender, crescer e construirtecnologia
@@ -30,13 +30,13 @@ function Sobre() {
           </div>
         </div>
       </div>
-      <div className="bg-[#0E294C] flex justify-center text-center">
-        <div className="container grid grid-cols-1 lg:grid-cols-2 text-[#00A597] text-xl font-semibold">
+      <div className="bg-[#0E294C] flex justify-center text-center pt-2">
+        <div className="container flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#00A597] text-xl font-semibold">
           <div className="flex flex-col gap-4 items-center justify-center">
             <h2 className="text-3xl font-bold text-white py-4 pt-6">
               No que acreditamos
             </h2>
-            <p className="px-5 py-3 ">
+            <p className="pb-10 text-xl">
               Valorizamos o trabalho em equipe, o aprendizado contínuo e a
               diversidade de experiências que cada integrante traz. Juntos,
               exploramos diferentes áreas da tecnologia do front-end ao
