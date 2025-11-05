@@ -2,7 +2,7 @@ function Produto() {
   return (
     <>
       <div className="bg-white-900 flex justify-center">
-        <div className="container grid grid-cols-1 md:grid-cols-2 text-black my-15">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 text-black my-15">
           <div className="flex flex-col gap-4 items-center justify-center py-4 order-2 md:order-0 text-center md:text-left">
             <h2 className="text-5xl font-bold">
               InovaRH — A evolução na gestão de pessoas começa aqui
@@ -23,7 +23,7 @@ function Produto() {
         </div>
       </div>
       <div className="bg-[#00A597] flex justify-center">
-        <div className="container grid grid-cols-1 md:grid-cols-2 text-black text-center md:text-left pb-5 pt-10">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 text-black text-center md:text-left pb-5 pt-10">
           <div className="flex items-center justify-center">
             <img
               src="https://i.postimg.cc/zftCN5XD/Selecting-team-amico-1.png"
