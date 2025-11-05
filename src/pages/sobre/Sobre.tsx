@@ -18,7 +18,7 @@ function Sobre() {
             </div>
             <div className="flex flex-col gap-4 items-center justify-center">
               <p className="text-3xl font-semibold pb-8 text-center">
-                <span className="text-[#0530a7]">Commit8 </span> é um coletivo
+                <span className="text-[#011e6d]">Commit8 </span> é um coletivo
                 formado por oito desenvolvedores em início de carreira, unidos
                 por um propósito comum: aprender, crescer e construirtecnologia
                 com propósito. Acreditamos que cada linha de código pode
@@ -31,7 +31,7 @@ function Sobre() {
         </div>
       </div>
       <div className="bg-[#0E294C] flex justify-center text-center pt-2">
-        <div className="container flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#00A597] text-xl font-semibold">
+        <div className="container flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#5ad4ca] text-xl font-semibold">
           <div className="flex flex-col gap-4 items-center justify-center">
             <h2 className="text-3xl font-bold text-white py-4 pt-6">
               No que acreditamos
