@@ -32,7 +32,7 @@ function CardDevs(cardDev: CardPDevsProps) {
               <GithubLogoIcon
                 size={35}
                 weight="bold"
-                className="mx-auto mt-6 hover:size-10 duration-500"
+                className="mx-auto mt-6 hover:size-15 duration-500"
               />
             </a>
           </div>
@@ -56,7 +56,7 @@ function CardDevs(cardDev: CardPDevsProps) {
               <GithubLogoIcon
                 size={35}
                 weight="bold"
-                className="mx-auto mt-6 hover:size-10 duration-500"
+                className="mx-auto mt-6 hover:size-15 duration-500"
               />
             </a>
           </div>
@@ -80,7 +80,7 @@ function CardDevs(cardDev: CardPDevsProps) {
               <GithubLogoIcon
                 size={35}
                 weight="bold"
-                className="mx-auto mt-6 hover:size-10 duration-500"
+                className="mx-auto mt-6 hover:size-15 duration-500"
               />
             </a>
           </div>
@@ -104,7 +104,7 @@ function CardDevs(cardDev: CardPDevsProps) {
               <GithubLogoIcon
                 size={35}
                 weight="bold"
-                className="mx-auto mt-6 hover:size-10 duration-500"
+                className="mx-auto mt-6 hover:size-15 duration-500"
               />
             </a>
           </div>

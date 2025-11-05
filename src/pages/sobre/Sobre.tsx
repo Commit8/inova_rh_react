@@ -7,14 +7,15 @@ function Sobre() {
         <h2 className="text-5xl font-bold text-center pt-10">Quem somos</h2>
         <div className="flex justify-center">
           <div className="container grid grid-cols-1 lg:grid-cols-2">
-            <div className="flex justify-center py-20 ">
+            <div className="flex justify-center py-6 ">
               <img
-                src="https://i.postimg.cc/GmjH9GTg/Logo-Commit8.png"
+                src="https://i.postimg.cc/0QXJHP2y/logo-maria-gasolina-removebg-preview.png"
                 alt="Logo da Commit8"
+                className="w-full p-0 m-0"
               />
             </div>
             <div className="flex flex-col gap-4 items-center justify-center">
-              <p className="text-xl font-semibold px-5 py-3 text-center">
+              <p className="text-3xl font-semibold px-5 py-3 text-center">
                 <span className="text-[#0E294C]">Commit8 </span> é um coletivo
                 formado por oito desenvolvedores em início de carreira, unidos
                 por um propósito comum: aprender, crescer e construirtecnologia
