@@ -4,11 +4,11 @@ function Home() {
   return (
     <>
       <div className="bg-[linear-gradient(130deg,#00A597_0%,#f3f5f6_80%)] flex justify-center h-screen font-inter bg-cover bg-no-repeat">
-        <div className="grid grid-cols-2 w-full h-full text-black">
+        <div className="grid grid-cols-1 place-items-center overflow-hidden lg:grid-cols-2 w-full h-full text-black">
           <div className="flex flex-col gap-4 items-center justify-center p-15">
-            <h2 className="text-6xl font-bold text-shadow-lg/17">Simplifique a gestão de pessoas na sua <span className="text-[#f3f5f6]">empresa</span> </h2>
+            <h2 className="text-3xl text-center lg:text-left lg:text-6xl font-bold text-shadow-lg/17">Simplifique a gestão de pessoas na sua <span className="text-[#f3f5f6]">empresa</span> </h2>
 
-            <p className="text-2xl mt-8">
+            <p className="text-center mt-8">
               O InovaRH é uma plataforma prática e intuitiva para gerenciar colaboradores e otimizar processos de Recursos Humanos.
             </p>
 
