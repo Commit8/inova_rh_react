@@ -5,9 +5,9 @@ function Sobre() {
     <>
       {" "}
       <div className="bg-[linear-gradient(135deg,#0E294C_0%,#1A4E91_40%,#17C8C0_75%,#C084FC_100%)] text-white">
-        <div className="flex justify-center container px-3 text-center lg:text-start">
+        <div className="flex justify-center container mx-auto px-3 text-center lg:text-start">
           <div className=" grid grid-cols-1 lg:grid-cols-2">
-            <div className="flex justify-center ">
+            <div className="flex justify-center">
               <img
                 src="https://i.postimg.cc/0QXJHP2y/logo-maria-gasolina-removebg-preview.png"
                 alt="Logo da Commit8"
@@ -76,7 +76,7 @@ function Sobre() {
           >
             <CardDevs
               bg="azul"
-              foto="https://i.postimg.cc/3wjsZqRw/IMG-3370.png"
+              foto="https://i.postimg.cc/B68Yd9VQ/IMG-3370-1.png"
               nome="Pedro Emanuel"
               descricao="Colaboradores.service.ts"
               link="https://github.com/pe3dru"
