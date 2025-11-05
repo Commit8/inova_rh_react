@@ -16,28 +16,28 @@ function Sobre() {
             </div>
             <div className="flex flex-col gap-4 justify-center">
               <h2 className="text-3xl font-inter font-bold text-white py-4 pt-6 ">
-              Quem somos
-            </h2>
-              <p className="text-2xl font-semibold pb-8  ">
-                <span className="text-[#011c66]">Commit8 </span> é um coletivo
-                formado por oito desenvolvedores em início de carreira, unidos
-                por um propósito comum: aprender, crescer e construir tecnologia
-                com propósito. Acreditamos que cada linha de código pode
-                transformar ideias em impacto real e é com essa visão que unimos
-                nossas habilidades e criatividade para desenvolver soluções
-                inovadoras, colaborativas e acessíveis.
+                Quem somos
+              </h2>
+              <p className="text-2xl  pb-8  ">
+                <span className="text-[#031D40] font-bold">Commit8 </span> é um
+                coletivo formado por oito desenvolvedores em início de carreira,
+                unidos por um propósito comum: aprender, crescer e construir
+                tecnologia com propósito. Acreditamos que cada linha de código
+                pode transformar ideias em impacto real e é com essa visão que
+                unimos nossas habilidades e criatividade para desenvolver
+                soluções inovadoras, colaborativas e acessíveis.
               </p>
             </div>
           </div>
         </div>
       </div>
       <div className="bg-[#0E294C] flex justify-center  pt-2">
-        <div className="container mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#70ebe0] text-xl font-semibold text-center pb-10 lg:text-start">
+        <div className="container mx-auto flex flex-col-reverse lg:grid lg:grid-cols-2 text-[#70ebe0] text-2xl text-center pb-10 lg:text-start">
           <div className="flex flex-col gap-4 justify-center ">
             <h2 className="text-3xl font-inter font-bold text-white py-4 pt-6">
               No que acreditamos
             </h2>
-            <p className="text-xl font-semibold">
+            <p className="text-2xl ">
               Valorizamos o trabalho em equipe, o aprendizado contínuo e a
               diversidade de experiências que cada integrante traz. Juntos,
               exploramos diferentes áreas da tecnologia do front-end ao
@@ -65,7 +65,10 @@ function Sobre() {
           <h1 className=" text-3xl font-inter font-bold text-[#00A597] pt-2.5">
             <span className="text-black">Coletivo</span> Commit8
           </h1>
-          <p className="text-3xl font-inter font-bold" > código, colaboração e propósito.</p>
+          <p className="text-3xl font-inter font-bold">
+            {" "}
+            código, colaboração e propósito.
+          </p>
           <div
             className="container mx-auto my-4 
                         grid grid-cols-1 md:grid-cols-2 
