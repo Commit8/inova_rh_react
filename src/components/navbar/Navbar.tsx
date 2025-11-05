@@ -41,18 +41,21 @@ function Navbar() {
               <Link
                 to="/home"
                 className="hover:text-[#01B18B] transition-colors"
+                onClick={() => setIsNavOpen(false)}
               >
                 Home
               </Link>
               <Link
                 to="/sobre"
                 className="hover:text-[#01B18B] transition-colors"
+                onClick={() => setIsNavOpen(false)}
               >
                 Quem Somos
               </Link>
               <Link
                 to="/produto"
                 className="hover:text-[#01B18B] transition-colors"
+                onClick={() => setIsNavOpen(false)}
               >
                 Soluções
               </Link>
@@ -61,15 +64,16 @@ function Navbar() {
         </div>
 
         <div className="hidden sm:flex gap-8 items-center ">
-          <Link to="/home" className="hover:text-[#01B18B] transition-colors">
+          <Link to="/home" className="hover:text-[#01B18B] transition-colors" onClick={() => setIsNavOpen(false)}>
             Home
           </Link>
-          <Link to="/sobre" className="hover:text-[#01B18B] transition-colors">
+          <Link to="/sobre" className="hover:text-[#01B18B] transition-colors" onClick={() => setIsNavOpen(false)}>
             Quem Somos
           </Link>
           <Link
             to="/produto"
             className="hover:text-[#01B18B] transition-colors"
+            onClick={() => setIsNavOpen(false)}
           >
             Soluções
           </Link>
