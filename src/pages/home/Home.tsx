@@ -20,7 +20,7 @@ function Home() {
           </div>
           <div className="flex rounded-full items-center flex-col justify-center">
             <img
-              src="https://i.imgur.com/7MmjNh9.png"
+              src="https://i.imgur.com/zugjl5N.png"
               alt="Imagem Página Home"
               className="w-3/4"
             />
