@@ -18,13 +18,12 @@ function Home() {
                 </button>
             </div>
           </div>
-          <div className="flex items-center flex-col justify-center">
+          <div className="flex rounded-full items-center flex-col justify-center">
             <img
-              src="https://i.imgur.com/nKl4Nsh.png"
+              src="https://i.imgur.com/7MmjNh9.png"
               alt="Imagem Página Home"
               className="w-3/4"
             />
-            <span className="font-inter text-[#031D40] text-7xl mt-4 pb-42 font-bold">inovaRH</span>
           </div>
         </div>
       </div>
@@ -33,3 +32,5 @@ function Home() {
 }
 
 export default Home;
+
+
