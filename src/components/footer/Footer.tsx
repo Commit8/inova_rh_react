@@ -11,21 +11,22 @@ function Footer() {
 
     const component: ReactNode = (
         <footer
-            className="w-full bg-[#031D40] text-white text-sm py-2"
+            className="w-full bg-[#031D40] text-white text-sm py-6"
         >
-            <div className="max-w-7xl mx-auto flex items-center justify-between px-6">
-                <div className="flex items-center gap-2">
+            <div className="max-w-full mx-auto flex items-center justify-between px-6" >
+                {/* "max-w-full mx-auto flex items-center justify-between px-6" */}
+                <div className="flex items-center gap-4">
                     <img
                         src={logo}
                         alt="Logo Commit8"
-                        className="w-5 h-5 object-contain"
+                        className="w-9 h-9 object-contain"
                     />
-                    <p className="font-semibold">
+                    <p className="font-bold text-base">
                         InovaRH | Copyright: Commit8 {data}
                     </p>
                 </div>
-                <div className="flex items-center gap-3">
-                    <p className="font-semibold text-base">Venha nos conhecer</p>
+                <div className="flex items-center gap-4">
+                    <p className="font-bold text-base">Venha nos conhecer</p>
 
                     <a
                         href="https://github.com/Commit8"
